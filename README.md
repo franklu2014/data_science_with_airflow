@@ -9,7 +9,7 @@ As the purpose is building a data pipeline, I want to dig out something interest
 For example, it'll be interesting to see if human communications are affected by the weather, or if results of sports games spur more discussion than government policies do.
 
 As this idea involves multiple data sources and various areas in machine learning, I try to lay out the plan of attack in different phases:  
-- [Phase 1: Ingest and aggregate weather data.]((Airflow_pipeline.ipynb))  
+- [Phase 1: Ingest and aggregate weather data.](Airflow_pipeline.ipynb)  
     I'm planning to use the API of OpenWeatherMap to get region specific weather data.  Thankfully, OpenWeatherMap provides free-tier of service that allows 1M api calls per month, which suits my requirement very well
     
 - Phase 2: Ingest Tweeter data and perform topic modeling.  
